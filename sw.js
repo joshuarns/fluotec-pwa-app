@@ -1,4 +1,3 @@
-;
 //asignar un nombre y versión al cache
 const CACHE_NAME = 'v1_cache_programador_fitness',
   urlsToCache = [
@@ -30,7 +29,7 @@ self.addEventListener('install', e => {
 //una vez que se instala el SW, se activa y busca los recursos para hacer que funcione sin conexión
 self.addEventListener('activate', e => {
   const cacheWhitelist = [CACHE_NAME]
-  
+
   e.waitUntil(
     caches.keys()
       .then(cacheNames => {
