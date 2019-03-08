@@ -9,7 +9,10 @@ const CACHE_NAME = 'v1_cache_programador_fitness',
     'https://use.fontawesome.com/releases/v5.0.6/webfonts/fa-brands-400.woff2',
     './css/style.css',
     './script.js',
+<<<<<<< HEAD
     './img/g6led-177-1.png',
+=======
+>>>>>>> gh-pages
     './img/icono-32.png',
     './img/favicon.png'
   ]
