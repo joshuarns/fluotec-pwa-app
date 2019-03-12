@@ -154,16 +154,19 @@ p {
   }
 }
 
-/* .Header img {
-  margin: 0 auto;
-  display: block;
-  max-width: 150px;
-  border-radius: 50%;
-}
+/*  =====  RESPONSIVE - 359px > 300px - Mobile SMALL =====  */
 
-.Header nav {
-  padding: 2rem 0;
-  display: flex;
-  justify-content: space-evenly;
-  font-size: 3rem;
-} */
+@media screen and (max-width:359px) and (min-width:300px) {
+  .clearFix {
+      display: block !important;
+  }
+
+  .card {
+      margin: 10px 0 0;
+  }
+
+  .card,
+  img {
+      width: 100% !important;
+  }
+}

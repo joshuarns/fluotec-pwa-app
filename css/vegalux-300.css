@@ -173,9 +173,52 @@ p {
     top: 67px;
 }
 
-/* Responsive */
+
+/* 
+
+=====================================
+|            Responsive              |
+=====================================
+
+*/
+
+/*  =====  RESPONSIVE - 1440px > 1280px - Window XLARGE =====  */
+
+@media screen and (max-width:1440px) and (min-width:1280px) {}
+
+/*  =====  RESPONSIVE - 1279px > 769px - Window LARGE =====  */
+
+@media screen and (max-width:1279px) and (min-width:769px) {}
+
+/*  =====  RESPONSIVE - 768px > 600px - Window MEDIUM =====  */
+
+@media screen and (max-width:768px) and (min-width:600px) {
+    .link .clearFix {
+        display: block !important;
+    }
+}
+
+/*  =====  RESPONSIVE - 599px > 360px - Mobile BIG =====  */
 
 @media screen and (max-width:599px) and (min-width:360px) {
+    .clearFix {
+        display: block !important;
+    }
+
+    .cards {
+        margin: 10px 0 0;
+    }
+
+    .cards,
+    img {
+        width: 100% !important;
+    }
+}
+
+
+/*  =====  RESPONSIVE - 359px > 300px - Mobile SMALL =====  */
+
+@media screen and (max-width:359px) and (min-width:300px) {
     .clearFix {
         display: block !important;
     }
