@@ -196,6 +196,19 @@ p {
     .link .clearFix {
         display: block !important;
     }
+
+    .clearFix {
+        display: block !important;
+    }
+
+    .cards {
+        margin: 10px 0 0;
+    }
+
+    .cards,
+    img {
+        width: 100% !important;
+    }
 }
 
 /*  =====  RESPONSIVE - 599px > 360px - Mobile BIG =====  */

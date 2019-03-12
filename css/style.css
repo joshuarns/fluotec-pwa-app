@@ -139,6 +139,28 @@ p {
 
 /* Responsive */
 
+
+/*  =====  RESPONSIVE - 768px > 600px - Window MEDIUM =====  */
+
+@media screen and (max-width:768px) and (min-width:600px) {
+  .link .clearFix {
+    display: block !important;
+  }
+
+  .clearFix {
+    display: block !important;
+  }
+
+  .card {
+    margin: 10px 0 0;
+  }
+
+  .card,
+  img {
+    width: 100% !important;
+  }
+}
+
 @media screen and (max-width:599px) and (min-width:360px) {
   .clearFix {
     display: block !important;
@@ -158,15 +180,15 @@ p {
 
 @media screen and (max-width:359px) and (min-width:300px) {
   .clearFix {
-      display: block !important;
+    display: block !important;
   }
 
   .card {
-      margin: 10px 0 0;
+    margin: 10px 0 0;
   }
 
   .card,
   img {
-      width: 100% !important;
+    width: 100% !important;
   }
 }
