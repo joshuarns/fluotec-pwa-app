@@ -1,0 +1,169 @@
+/* Custom Properties */
+:root {
+    --main-color: #F0DB4F;
+    --main-modal-color: #000;
+    --second-color: #000000;
+    --second-modal-color: rgba(43, 43, 43, .5);
+  }
+  
+  html {
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: var(--second-color);
+    background-color: var(--main-modal-color);
+  }
+  
+  *,
+  *:after,
+  *:before {
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+  }
+  
+  body {
+    margin: 2rem auto;
+    overflow-x: hidden;
+  }
+  
+  a {
+    font-size: 16px;
+    color: #ffc107eb;
+    text-decoration: none;
+  }
+  
+  p {
+    padding: 1rem;
+    font-size: 1.25rem;
+  }
+  
+  ::selection {
+    background-color: var(--second-color);
+    color: var(--main-color);
+  }
+  
+  .Header {
+    display: flex !important;
+    flex-direction: column !important;
+    text-align: center !important;
+  }
+  
+  .Header h1 {
+    word-wrap: break-word;
+    background: none;
+    color: #000000;
+  }
+  
+  .container {
+    width: 100%;
+  }
+  
+  .row-content {
+    width: 100%;
+    background: #000000;
+    ;
+  }
+  
+  /* 
+  .header-container {
+    width: 100%;
+    background: #ffc107eb;
+    height: auto;
+  }
+  
+  .header-container h2 {
+    font-size: 60px;
+    text-align: center;
+  } */
+  
+  .clearFix {
+    padding: 7px 0;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .card {
+    background: #fafafa;
+    border: 1px solid #fafafa;
+    width: 49%;
+    height: 545px;
+  }
+  
+  .card img {
+    width: 500px;
+    height: 247px;
+  }
+  
+  .card-text {
+    color: var(--main-modal-color);
+    text-align: center;
+    width: 100%;
+  }
+  
+  .card-text h4 {
+    font-size: 30px;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    margin-top: 52px;
+    font-weight: 500;
+    line-height: 1.1;
+    letter-spacing: .016em;
+  }
+  
+  .second-color {
+    color: #ffc107eb;
+  }
+  
+  .card-text h5 {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 2.2381;
+    letter-spacing: .016em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  }
+  
+  .card .link {
+    position: relative;
+    text-align: center;
+    padding: 0;
+    top: 0;
+  }
+  
+  .card .content-image {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 67px;
+  }
+  
+  /* Responsive */
+  
+  @media screen and (max-width:599px) and (min-width:360px) {
+    .clearFix {
+      display: block !important;
+    }
+  
+    .card {
+      margin: 10px 0 0;
+    }
+  
+    .card,
+    img {
+      width: 100% !important;
+    }
+  }
+  
+  /* .Header img {
+    margin: 0 auto;
+    display: block;
+    max-width: 150px;
+    border-radius: 50%;
+  }
+  
+  .Header nav {
+    padding: 2rem 0;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 3rem;
+  } */
