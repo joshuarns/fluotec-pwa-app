@@ -35,7 +35,6 @@ a {
 }
 
 p {
-    padding: 1rem;
     font-size: 1.25rem;
 }
 
@@ -132,13 +131,46 @@ p {
     top: 0;
 }
 
+.btn-warning {
+    color: #ffffff !important;
+}
+
+.modal-header {
+    border-bottom: none !important;
+}
+
+.modal-header .close {
+    text-shadow: 0 1px 0 #ffc107eb !important;
+    color:#ffc107eb !important;
+    opacity: 1.5 !important;
+}
+
+.header-titulo {
+    margin-top: 0;
+    height: auto;
+}
+
+.header-titulo h4 {
+    margin-top: 0px;
+    text-align: justify;
+}
+
 .content-image-modal {
     top: 0px;
 }
 
 .content-image-modal img {
     width: 409px;
-    height: 230px; 
+    height: 230px;
+}
+
+.cards-text-modal {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 2.2381;
+    letter-spacing: .016em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
 
 .modal-content {
