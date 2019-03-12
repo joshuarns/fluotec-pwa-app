@@ -65,18 +65,6 @@ p {
     ;
 }
 
-/* 
-  .header-contenedor {
-    width: 100%;
-    background: #ffc107eb;
-    height: auto;
-  }
-  
-  .header-contenedor h2 {
-    font-size: 60px;
-    text-align: center;
-  } */
-
 .clearFix {
     padding: 7px 0;
     display: flex;
@@ -141,7 +129,7 @@ p {
 
 .modal-header .close {
     text-shadow: 0 1px 0 #ffc107eb !important;
-    color:#ffc107eb !important;
+    color: #ffc107eb !important;
     opacity: 1.5 !important;
 }
 
@@ -167,14 +155,15 @@ p {
 .cards-text-modal {
     color: #ffffff;
     font-size: 18px;
-    font-weight: 300;
-    line-height: 2.2381;
+    font-weight: 500;
+    text-align: justify;
+    line-height: 1.2381;
     letter-spacing: .016em;
     font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
 
 .modal-content {
-    background-color: #000000 !important;
+    background-color: #121216 !important;
 }
 
 .cards .content-image {
@@ -200,17 +189,3 @@ p {
         width: 100% !important;
     }
 }
-
-/* .Header img {
-    margin: 0 auto;
-    display: block;
-    max-width: 150px;
-    border-radius: 50%;
-  }
-  
-  .Header nav {
-    padding: 2rem 0;
-    display: flex;
-    justify-content: space-evenly;
-    font-size: 3rem;
-  } */
