@@ -141,11 +141,12 @@ p {
 
   .cards {
     margin: 10px 0 0;
+    width: 100% !important;
   }
 
-  .cards,
-  img {
-    width: 100% !important;
+  .cards img {
+    width: 300px !important;
+    height: 300px !important;
   }
 }
 
@@ -156,11 +157,12 @@ p {
 
   .cards {
     margin: 10px 0 0;
+    width: 100% !important;
   }
 
-  .cards,
-  img {
-    width: 100% !important;
+  .cards img {
+    width: 250px !important;
+    height: 250px !important;
   }
 }
 
@@ -173,10 +175,10 @@ p {
 
   .cards {
     margin: 10px 0 0;
+    width: 100% !important;
   }
 
-  .cards,
-  img {
+  .cards img {
     width: 100% !important;
   }
 }
