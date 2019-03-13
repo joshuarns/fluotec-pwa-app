@@ -38,9 +38,21 @@ p {
     font-size: 1.25rem;
 }
 
-::selection {
-    background-color: var(--second-color);
-    color: var(--main-color);
+.navbar-light .navbar-nav .nav-link {
+    color: #ffffff !important;
+}
+
+.active {
+    font-weight: 900 !important;
+}
+
+.third-color {
+    color: #ffffff;
+}
+
+.navbar-toggler {
+    background-color: #ffc107eb !important;
+    border: 1px solid #ffc107eb;
 }
 
 .Header {

@@ -28,12 +28,6 @@ body {
   overflow-x: hidden;
 }
 
-a {
-  font-size: 16px;
-  color: #ffc107eb;
-  text-decoration: none;
-}
-
 p {
   padding: 1rem;
   font-size: 1.25rem;
@@ -56,8 +50,14 @@ p {
   color: #000000;
 }
 
-.container {
+.contenedor {
   width: 100%;
+}
+
+.contenedor a {
+  font-size: 16px !important;
+  color: #ffc107eb !important;
+  text-decoration: none !important;
 }
 
 .row-content {
@@ -72,25 +72,25 @@ p {
   justify-content: space-evenly;
 }
 
-.card {
+.cards {
   background: #121216;
   border: 1px solid #121216;
   width: 49%;
   height: 545px;
 }
 
-.card img {
+.cards img {
   width: 300px;
   height: 300px;
 }
 
-.card-text {
+.cards-text {
   color: #fff;
   text-align: center;
   width: 100%;
 }
 
-.card-text h4 {
+.cards-text h4 {
   font-size: 30px;
   font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   margin-top: 52px;
@@ -103,7 +103,7 @@ p {
   color: #ffc107eb;
 }
 
-.card-text h5 {
+.cards-text h5 {
   font-size: 18px;
   font-weight: 300;
   line-height: 2.2381;
@@ -111,14 +111,14 @@ p {
   font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
 
-.card .link {
+.cards .link {
   position: relative;
   text-align: center;
   padding: 0;
   top: 0;
 }
 
-.card .content-image {
+.cards .content-image {
   position: relative;
   display: flex;
   justify-content: center;
@@ -139,11 +139,11 @@ p {
     display: block !important;
   }
 
-  .card {
+  .cards {
     margin: 10px 0 0;
   }
 
-  .card,
+  .cards,
   img {
     width: 100% !important;
   }
@@ -154,11 +154,11 @@ p {
     display: block !important;
   }
 
-  .card {
+  .cards {
     margin: 10px 0 0;
   }
 
-  .card,
+  .cards,
   img {
     width: 100% !important;
   }
@@ -171,11 +171,11 @@ p {
     display: block !important;
   }
 
-  .card {
+  .cards {
     margin: 10px 0 0;
   }
 
-  .card,
+  .cards,
   img {
     width: 100% !important;
   }
