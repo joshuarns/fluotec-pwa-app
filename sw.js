@@ -1,5 +1,5 @@
 //asignar un nombre y versión al cache
-const CACHE_NAME = 'v1_cache_fluotec',
+const CACHE_NAME = 'v1_cache_programador_fitness',
   urlsToCache = [
     './',
     './index.html',
@@ -8,13 +8,14 @@ const CACHE_NAME = 'v1_cache_fluotec',
     './img/g6led-177-1.png',
     './img/g6led-171-2.png',
     './img/g6led-107-b.png',
-    './img/g6led-178-3',
-    './img/g6led-178-4',
+    './img/g6led-178-3.png',
+    './img/g6led-178-4.png',
     './img/studio-led-hp-250-tun.png',
     './img/fluotec-logo.png',
     './img/icono-32.png',
     './img/favicon.png',
-    'https://fonts.googleapis.com/css?family=Raleway:400,700'
+    'https://fonts.googleapis.com/css?family=Raleway:400,700',
+    'https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css'
   ]
 
 //durante la fase de instalación, generalmente se almacena en caché los activos estáticos
