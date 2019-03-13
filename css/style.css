@@ -66,18 +66,6 @@ p {
   ;
 }
 
-/* 
-.header-container {
-  width: 100%;
-  background: #ffc107eb;
-  height: auto;
-}
-
-.header-container h2 {
-  font-size: 60px;
-  text-align: center;
-} */
-
 .clearFix {
   padding: 7px 0;
   display: flex;
@@ -85,19 +73,19 @@ p {
 }
 
 .card {
-  background: #fafafa;
-  border: 1px solid #fafafa;
+  background: #121216;
+  border: 1px solid #121216;
   width: 49%;
   height: 545px;
 }
 
 .card img {
-  width: 500px;
-  height: 247px;
+  width: 300px;
+  height: 300px;
 }
 
 .card-text {
-  color: var(--main-modal-color);
+  color: #fff;
   text-align: center;
   width: 100%;
 }
@@ -134,7 +122,7 @@ p {
   position: relative;
   display: flex;
   justify-content: center;
-  top: 67px;
+  top: 40px;
 }
 
 /* Responsive */

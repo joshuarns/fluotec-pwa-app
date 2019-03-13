@@ -79,8 +79,8 @@ p {
 }
 
 .cards img {
-    width: 500px;
-    height: 247px;
+    width: 300px;
+    height: 300px;
 }
 
 .cards-text {
@@ -148,8 +148,8 @@ p {
 }
 
 .content-image-modal img {
-    width: 409px;
-    height: 230px;
+    width: 250px;
+    height: 250px;
 }
 
 .cards-text-modal {
@@ -170,7 +170,7 @@ p {
     position: relative;
     display: flex;
     justify-content: center;
-    top: 67px;
+    top: 40px;
 }
 
 
@@ -243,5 +243,9 @@ p {
     .cards,
     img {
         width: 100% !important;
+    }
+
+    .cards-text-modal p {
+        font-size: 20px !important;
     }
 }

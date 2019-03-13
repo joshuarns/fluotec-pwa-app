@@ -1,17 +1,19 @@
 //asignar un nombre y versión al cache
-const CACHE_NAME = 'v1_cache_programador_fitness',
+const CACHE_NAME = 'v1_cache_fluotec',
   urlsToCache = [
     './',
     './index.html',
     './css/style.css',
     './script.js',
     './img/g6led-177-1.png',
+    './img/g6led-171-2.png',
+    './img/g6led-107-b.png',
+    './img/g6led-178-3',
+    './img/g6led-178-4',
+    './img/studio-led-hp-250-tun.png',
     './img/icono-32.png',
     './img/favicon.png',
-    'https://fonts.googleapis.com/css?family=Raleway:400,700',
-    'https://fonts.gstatic.com/s/raleway/v12/1Ptrg8zYS_SKggPNwJYtWqZPAA.woff2',
-    'https://use.fontawesome.com/releases/v5.0.7/css/all.css',
-    'https://use.fontawesome.com/releases/v5.0.6/webfonts/fa-brands-400.woff2'
+    'https://fonts.googleapis.com/css?family=Raleway:400,700'
   ]
 
 //durante la fase de instalación, generalmente se almacena en caché los activos estáticos
