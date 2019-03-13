@@ -11,6 +11,7 @@ const CACHE_NAME = 'v1_cache_fluotec',
     './img/g6led-178-3',
     './img/g6led-178-4',
     './img/studio-led-hp-250-tun.png',
+    './img/fluotec-logo.png',
     './img/icono-32.png',
     './img/favicon.png',
     'https://fonts.googleapis.com/css?family=Raleway:400,700'
