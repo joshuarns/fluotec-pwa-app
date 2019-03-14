@@ -27,6 +27,7 @@
   <!-- Manifest -->
   <link rel="manifest" href="./manifest.json">
 
+  <!-- CDN Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
 
   <!-- Styles CSS -->
@@ -38,15 +39,85 @@
 </head>
 
 <body>
-  <header class="Header">
-    <!-- <h1>Fluotec</h1> -->
-    <!-- <img src="./img/ProgramadorFitness.png" alt="#ProgramadorFitness"> -->
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background: #121216 !important;">
+    <a class="navbar-brand" href="../index.html">
+      <img src="../img/fluotec-logo.png" alt="">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="../index.html">Inicio <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./html/vegalux-300.html">Vegalux 300</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Auralux 100</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">CineLight</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">StudioLED</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!-- END Navbar -->
+
+  <header class="header">
+    <div class="contenedor">
+      <img src="./img/header-banner.jpg" class="header-banner" alt="Responsive image">
+      <p class="text-center text-header">Pure white light</p>
+    </div>
   </header>
+
   <div class="contenedor">
     <div class="row-content">
-      <!-- <div class="header-container">
-        <h2>Products</h2>
-      </div> -->
+      <p class="text-center text-cards-header">Select the type of lught you need.</p>
+      <div class="clearFix">
+        <div class="cards-products">
+          <div class="cards-text">
+            <h4>Fresnels</h4>
+          </div>
+          <div class="content-image">
+            <img src="./img/g6led-178-5.png" alt="">
+          </div>
+        </div>
+        <div class="cards-products">
+          <div class="cards-text">
+            <h4>Led Panels</h4>
+          </div>
+          <div class="content-image">
+            <img src="./img/led-panels-image.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <div clas="contenedor">
+    <div class="row-content">
+      <div class="clearFix">
+          <div class="fluotec-image">
+            <img src="./img/fluotec-logo-image.jpg" alt="">
+          </div>
+        <div class="image-girl">
+          <img src="./img/fluotec-photo-white-balck.jpg" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- INT cards Products -->
+  <div class="contenedor">
+    <div class="row-content">
       <div class="clearFix">
         <div class="cards">
           <div class="cards-text">
@@ -101,6 +172,7 @@
       </div>
     </div>
   </div>
+  <!-- END cards Products -->
   <script src="./script.js"></script>
 
   <!-- Scripts CDN Bootstrap -->

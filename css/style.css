@@ -1,24 +1,13 @@
-/* Custom Properties */
-:root {
-  --main-color: #F0DB4F;
-  --main-modal-color: #000;
-  --second-color: #000000;
-  --second-modal-color: rgba(43, 43, 43, .5);
-}
-
 html {
   box-sizing: border-box;
   font-family: 'Raleway', sans-serif;
   font-size: 16px;
   line-height: 1.6;
-  color: var(--second-color);
-  background-color: var(--main-modal-color);
 }
 
 *,
 *:after,
 *:before {
-  box-sizing: inherit;
   padding: 0;
   margin: 0;
 }
@@ -26,6 +15,7 @@ html {
 body {
   margin: 2rem auto;
   overflow-x: hidden;
+  background-color: #000 !important;
 }
 
 p {
@@ -33,22 +23,55 @@ p {
   font-size: 1.25rem;
 }
 
-::selection {
-  background-color: var(--second-color);
-  color: var(--main-color);
+/* INT Navbar Styles */
+
+.navbar-light .navbar-nav .nav-link {
+  color: #ffffff !important;
 }
 
-.Header {
-  display: flex !important;
-  flex-direction: column !important;
-  text-align: center !important;
+.active {
+  font-weight: 900 !important;
 }
 
-.Header h1 {
-  word-wrap: break-word;
-  background: none;
-  color: #000000;
+.third-color {
+  color: #ffffff;
 }
+
+.navbar-toggler {
+  background-color: #ffc107eb !important;
+  border: 1px solid #ffc107eb;
+}
+
+/* END Navbar Styles */
+
+/* ======================================== */
+
+/* INT Header Styles */
+
+.header-banner {
+  width: 100%;
+  height: auto;
+}
+
+.header .text-header {
+  color: #fff;
+  font-size: 25px;
+  font-weight: 200;
+  letter-spacing: 15px;
+  text-transform: uppercase;
+}
+
+.text-cards-header {
+  color: #fff !important;
+  letter-spacing: 1px;
+  font-weight: 300;
+}
+
+/* END Header Styles */
+
+
+/* ======================================== */
+
 
 .contenedor {
   width: 100%;
@@ -72,7 +95,34 @@ p {
   justify-content: space-evenly;
 }
 
-.cards {
+.cards-products {
+  background-image: linear-gradient(to bottom, #000000, #1e1e1e, #363535, #4f4e4e, #696968) !important;
+}
+
+.cards-products .content-image {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  top: 40px;
+}
+
+.cards-products .cards-text {
+  text-transform: uppercase;
+}
+
+.cards-products img {
+  width: 400px;
+  height: 400px;
+}
+
+.fluotec-image {
+  position: relative;
+  top: 170px;
+  height: 78px;
+}
+
+.cards,
+.cards-products {
   background: #121216;
   border: 1px solid #121216;
   width: 49%;
@@ -125,7 +175,23 @@ p {
   top: 40px;
 }
 
-/* Responsive */
+/* 
+
+=====================================
+|            Responsive              |
+=====================================
+
+*/
+
+/*  =====  RESPONSIVE - 1279px > 769px - Window LARGE =====  */
+
+@media screen and (max-width:1279px) and (min-width:769px) {
+  .container {
+    background-color: #121216 !important;
+    width: 100% !important;
+  }
+
+}
 
 
 /*  =====  RESPONSIVE - 768px > 600px - Window MEDIUM =====  */
@@ -150,6 +216,8 @@ p {
   }
 }
 
+/*  =====  RESPONSIVE - 599px > 360px - Mobile BIG =====  */
+
 @media screen and (max-width:599px) and (min-width:360px) {
   .clearFix {
     display: block !important;
@@ -163,6 +231,24 @@ p {
   .cards img {
     width: 250px !important;
     height: 250px !important;
+  }
+
+  .cards-products {
+    margin: 10px 0 0;
+    width: 100% !important;
+  }
+
+  .fluotec-image {
+    position: relative;
+    height: 78px;
+    top: 0px;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .image-girl img {
+    width: 100%;
   }
 }
 
@@ -180,5 +266,23 @@ p {
 
   .cards img {
     width: 100% !important;
+  }
+
+  .cards-products {
+    margin: 10px 0 0;
+    width: 100% !important;
+  }
+
+  .fluotec-image {
+    position: relative;
+    height: 78px;
+    top: 0px;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .image-girl img {
+    width: 100%;
   }
 }
