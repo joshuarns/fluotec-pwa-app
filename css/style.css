@@ -65,10 +65,34 @@ p {
   color: #fff !important;
   letter-spacing: 1px;
   font-weight: 300;
+  position: relative;
+  top: 22px;
 }
 
 /* END Header Styles */
 
+/* ======================================== */
+
+/* INT Slider Styles */
+
+.content-galery {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.gallery-text {
+  width: 721px;
+  color: #ffffff;
+  font-weight: 200;
+  letter-spacing: 1px;
+}
+
+.gallery-image {
+  width: 285px;
+}
+
+/* END Slider Styles */
 
 /* ======================================== */
 
@@ -219,6 +243,27 @@ p {
 /*  =====  RESPONSIVE - 599px > 360px - Mobile BIG =====  */
 
 @media screen and (max-width:599px) and (min-width:360px) {
+  .gallery-content {
+    width: 100%;
+    display: flex !important;
+    justify-content: center !important;
+  }
+
+  .gallery-content .row {
+    display: grid !important;
+  }
+
+  .container .row .col {
+    padding: 17px !important;
+  }
+
+  .carousel-text {
+    width: 100%;
+    color: #ffffff;
+    font-weight: 200;
+    letter-spacing: 1px;
+  }
+
   .clearFix {
     display: block !important;
   }
@@ -255,6 +300,17 @@ p {
 /*  =====  RESPONSIVE - 359px > 300px - Mobile SMALL =====  */
 
 @media screen and (max-width:359px) and (min-width:300px) {
+  .container .row .col {
+    padding: 17px !important;
+  }
+
+  .carousel-text {
+    width: 100%;
+    color: #ffffff;
+    font-weight: 200;
+    letter-spacing: 1px;
+  }
+
   .clearFix {
     display: block !important;
   }
