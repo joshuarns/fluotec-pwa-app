@@ -238,6 +238,25 @@ p {
     width: 300px !important;
     height: 300px !important;
   }
+
+  .cards-products {
+    margin: 10px 0 0;
+    width: 100% !important;
+  }
+
+  .fluotec-image {
+    position: relative;
+    height: 78px;
+    top: 0px;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .image-girl img {
+    width: 100%;
+  }
+
 }
 
 /*  =====  RESPONSIVE - 599px > 360px - Mobile BIG =====  */
