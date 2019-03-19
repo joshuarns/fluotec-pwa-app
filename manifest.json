@@ -4,7 +4,7 @@
   "description": "FLUOTEC the award-winning design and manufacturing firm of lighting products and services for the cinema, television, video, photography and theatrical industries.",
   "background_color": "#000",
   "theme_color": "#ffc107eb",
-  "orientation": "portrait",
+  "orientation": "portrait, landscape",
   "display": "standalone",
   "start_url": "./?utm_source=web_app_manifest",
   "scope": "./",
