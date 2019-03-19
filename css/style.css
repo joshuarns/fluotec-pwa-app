@@ -74,7 +74,9 @@ p {
 /* ======================================== */
 
 /* INT Slider Styles */
-
+.row {
+  background: #000 !important; 
+}
 .content-galery {
   width: 100%;
   display: flex;
@@ -215,12 +217,30 @@ p {
     width: 100% !important;
   }
 
+  .gallery-image {
+    width: 210px;
+  }
+
 }
 
 
 /*  =====  RESPONSIVE - 768px > 600px - Window MEDIUM =====  */
 
 @media screen and (max-width:768px) and (min-width:600px) {
+  .gallery-content {
+    width: 100%;
+    display: flex !important;
+    justify-content: center !important;
+  }
+
+  .gallery-content .row {
+    display: grid !important;
+  }
+
+  .container .row .col {
+    padding: 17px !important;
+  }
+
   .link .clearFix {
     display: block !important;
   }
@@ -255,10 +275,6 @@ p {
 
   .image-girl img {
     width: 100%;
-  }
-
-  .gallery-image {
-    width: 210px;
   }
 
 }
