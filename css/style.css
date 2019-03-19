@@ -257,6 +257,10 @@ p {
     width: 100%;
   }
 
+  .gallery-image {
+    width: 210px;
+  }
+
 }
 
 /*  =====  RESPONSIVE - 599px > 360px - Mobile BIG =====  */

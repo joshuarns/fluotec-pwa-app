@@ -3,6 +3,7 @@ const CACHE_NAME = 'v1_cache_programador_fitness',
   urlsToCache = [
     './',
     './index.html',
+    './html/vegalux-300.html',
     './css/style.css',
     './script.js',
     './img/g6led-177-1.png',
