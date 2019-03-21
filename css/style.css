@@ -38,8 +38,8 @@ p {
 }
 
 .navbar-toggler {
-  background-color: #ffc107eb !important;
-  border: 1px solid #ffc107eb;
+  background-color: #fde300 !important;
+  border: 1px solid #fde300;
 }
 
 /* END Navbar Styles */
@@ -63,9 +63,11 @@ p {
 
 .text-cards-header {
   color: #fff !important;
-  letter-spacing: 1px;
-  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 2px;
   position: relative;
+  font-weight: 200;
+  font-size: 30px;
   top: 22px;
 }
 
@@ -73,10 +75,11 @@ p {
 
 /* ======================================== */
 
-/* INT Slider Styles */
+/* INT ImageGallery */
 .row {
-  background: #000 !important; 
+  background: #000 !important;
 }
+
 .content-galery {
   width: 100%;
   display: flex;
@@ -94,10 +97,69 @@ p {
   width: 285px;
 }
 
-/* END Slider Styles */
+/* END ImageGallery */
 
 /* ======================================== */
 
+.fluotec-image-logo {
+  width: 21%;
+}
+
+.fluotec-image-logo img {
+  height: auto;
+  width: 138%;
+}
+
+.text-fluotec-logo {
+  color: #ffffff;
+  font-size: 33px;
+  font-weight: 200;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+}
+
+
+/* ======================================== */
+.card-copa-image,
+.card-image-golden-gate {
+  background-repeat: no-repeat;
+  background-size: 100% 510px;
+  height: 516px;
+  width: 47%;
+}
+
+
+.card-copa-image {
+  background-image: url('../img/copa-image.jpg');
+}
+
+.card-image-golden-gate {
+  background-image: url('../img/golden-gate.jpg');
+}
+
+.black-text {
+  background: #000000bf;
+  position: relative;
+  height: auto;
+  top: 81%;
+}
+
+.black-text p {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 4px;
+}
+
+.black-text span {
+  letter-spacing: 0px;
+  position: relative;
+  font-weight: 200;
+  font-size: 17px;
+  bottom: 8px;
+}
+
+/* ======================================== */
 
 .contenedor {
   width: 100%;
@@ -121,34 +183,13 @@ p {
   justify-content: space-evenly;
 }
 
-.cards-products {
-  background-image: linear-gradient(to bottom, #000000, #1e1e1e, #363535, #4f4e4e, #696968) !important;
-}
-
-.cards-products .content-image {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  top: 40px;
-}
-
-.cards-products .cards-text {
-  text-transform: uppercase;
-}
-
-.cards-products img {
-  width: 400px;
-  height: 400px;
-}
-
 .fluotec-image {
   position: relative;
   top: 170px;
   height: 78px;
 }
 
-.cards,
-.cards-products {
+.cards {
   background: #121216;
   border: 1px solid #121216;
   width: 49%;
@@ -158,6 +199,7 @@ p {
 .cards img {
   width: 300px;
   height: 300px;
+  z-index: 111111111;
 }
 
 .cards-text {
@@ -176,7 +218,7 @@ p {
 }
 
 .second-color {
-  color: #ffc107eb;
+  color: #fde300;
 }
 
 .cards-text h5 {
@@ -192,6 +234,14 @@ p {
   text-align: center;
   padding: 0;
   top: 0;
+}
+
+.fondo {
+  width: 324px;
+  height: 282px;
+  background-image: radial-gradient(circle, #7773738c 35%, #121216, #121216);
+  position: absolute;
+  opacity: 0.7;
 }
 
 .cards .content-image {
@@ -259,10 +309,7 @@ p {
     height: 300px !important;
   }
 
-  .cards-products {
-    margin: 10px 0 0;
-    width: 100% !important;
-  }
+
 
   .fluotec-image {
     position: relative;
@@ -317,11 +364,6 @@ p {
     height: 250px !important;
   }
 
-  .cards-products {
-    margin: 10px 0 0;
-    width: 100% !important;
-  }
-
   .fluotec-image {
     position: relative;
     height: 78px;
@@ -360,11 +402,6 @@ p {
   }
 
   .cards img {
-    width: 100% !important;
-  }
-
-  .cards-products {
-    margin: 10px 0 0;
     width: 100% !important;
   }
 
