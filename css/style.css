@@ -436,4 +436,17 @@ p {
   .image-girl img {
     width: 100%;
   }
+
+  .fluotec-image-logo,
+  .fluotec-image-logo img {
+    width: 100%;
+  }
+
+  .card-copa-image,
+  .card-image-golden-gate {
+    background-repeat: no-repeat;
+    background-size: 100% 510px;
+    height: 516px;
+    width: 100%;
+  }
 }
