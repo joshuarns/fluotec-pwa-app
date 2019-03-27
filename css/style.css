@@ -24,7 +24,6 @@ p {
 }
 
 /* INT Navbar Styles */
-
 .navbar-light .navbar-nav .nav-link {
   color: #ffffff !important;
 }
@@ -44,40 +43,54 @@ p {
 
 /* END Navbar Styles */
 
-/* ======================================== */
-
 /* INT Header Styles */
-
 .header-banner {
   width: 100%;
   height: auto;
 }
 
-.header .text-header {
-  color: #fff;
-  font-size: 25px;
-  font-weight: 200;
-  letter-spacing: 15px;
-  text-transform: uppercase;
-}
-
-.text-cards-header {
-  color: #fff !important;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  position: relative;
-  font-weight: 200;
-  font-size: 30px;
-  top: 22px;
-}
-
 /* END Header Styles */
 
-/* ======================================== */
+.contenedor {
+  width: 100%;
+}
+
+.contenedor a {
+  font-size: 16px !important;
+  color: #ffc107eb !important;
+  text-decoration: none !important;
+}
+
+.row-content {
+  width: 100%;
+  background: #000000;
+  ;
+}
+
+.clearFix {
+  padding: 7px 0;
+  display: flex;
+  justify-content: space-evenly;
+}
 
 /* INT ImageGallery */
 .row {
   background: #000 !important;
+}
+
+.sub-text {
+  color: #fff;
+  font-size: 36px;
+  position: relative;
+  bottom: 12px;
+  text-transform: uppercase;
+  font-family: Futura;
+}
+
+.col-6,
+.col-12 {
+  position: relative !important;
+  top: 37px;
 }
 
 .content-galery {
@@ -91,15 +104,103 @@ p {
   color: #ffffff;
   font-weight: 200;
   letter-spacing: 1px;
+  display: flex;
 }
 
 .gallery-image {
   width: 285px;
 }
 
+.text-gallery {
+  color: #fff;
+  font-size: 25px;
+  font-weight: 200;
+  letter-spacing: 15px;
+  text-transform: uppercase;
+}
+
 /* END ImageGallery */
 
-/* ======================================== */
+.fluotec-image {
+  position: relative;
+  top: 120px;
+  height: 78px;
+}
+
+/* Content Cards */
+.second-color {
+  color: #fde300;
+}
+
+.text-cards-header {
+  color: #fff !important;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  position: relative;
+  font-weight: 200;
+  font-size: 30px;
+  top: 22px;
+}
+
+.cards {
+  background: #121216;
+  border: 1px solid #121216;
+  width: 49%;
+  height: 545px;
+}
+
+.cards-text {
+  color: #fff;
+  text-align: center;
+  width: 100%;
+}
+
+.cards-text h4 {
+  font-size: 30px;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  margin-top: 52px;
+  font-weight: 500;
+  line-height: 1.1;
+  letter-spacing: .016em;
+}
+
+.cards-text h5 {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 2.2381;
+  letter-spacing: .016em;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+.cards .link {
+  position: relative;
+  text-align: center;
+  padding: 0;
+  top: 0;
+}
+
+.cards .content-image {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  top: 40px;
+}
+
+.fondo {
+  width: 324px;
+  height: 282px;
+  background-image: radial-gradient(circle, #7773738c 35%, #121216, #121216);
+  position: absolute;
+  opacity: 0.7;
+}
+
+.cards img {
+  width: 300px;
+  height: 300px;
+  z-index: 111111111;
+}
+
+/* End Content Cards */
 
 .fluotec-image-logo {
   width: 21%;
@@ -118,8 +219,6 @@ p {
   text-transform: uppercase;
 }
 
-
-/* ======================================== */
 .card-copa-image,
 .card-image-golden-gate {
   background-repeat: no-repeat;
@@ -159,97 +258,6 @@ p {
   bottom: 8px;
 }
 
-/* ======================================== */
-
-.contenedor {
-  width: 100%;
-}
-
-.contenedor a {
-  font-size: 16px !important;
-  color: #ffc107eb !important;
-  text-decoration: none !important;
-}
-
-.row-content {
-  width: 100%;
-  background: #000000;
-  ;
-}
-
-.clearFix {
-  padding: 7px 0;
-  display: flex;
-  justify-content: space-evenly;
-}
-
-.fluotec-image {
-  position: relative;
-  top: 170px;
-  height: 78px;
-}
-
-.cards {
-  background: #121216;
-  border: 1px solid #121216;
-  width: 49%;
-  height: 545px;
-}
-
-.cards img {
-  width: 300px;
-  height: 300px;
-  z-index: 111111111;
-}
-
-.cards-text {
-  color: #fff;
-  text-align: center;
-  width: 100%;
-}
-
-.cards-text h4 {
-  font-size: 30px;
-  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-  margin-top: 52px;
-  font-weight: 500;
-  line-height: 1.1;
-  letter-spacing: .016em;
-}
-
-.second-color {
-  color: #fde300;
-}
-
-.cards-text h5 {
-  font-size: 18px;
-  font-weight: 300;
-  line-height: 2.2381;
-  letter-spacing: .016em;
-  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-}
-
-.cards .link {
-  position: relative;
-  text-align: center;
-  padding: 0;
-  top: 0;
-}
-
-.fondo {
-  width: 324px;
-  height: 282px;
-  background-image: radial-gradient(circle, #7773738c 35%, #121216, #121216);
-  position: absolute;
-  opacity: 0.7;
-}
-
-.cards .content-image {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  top: 40px;
-}
 
 /* 
 
@@ -272,7 +280,6 @@ p {
   }
 
 }
-
 
 /*  =====  RESPONSIVE - 768px > 600px - Window MEDIUM =====  */
 
