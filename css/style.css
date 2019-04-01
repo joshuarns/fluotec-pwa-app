@@ -54,6 +54,7 @@ p {
 
 .contenedor {
   width: 100%;
+  font-family: Futura;
 }
 
 .contenedor a {
@@ -158,7 +159,6 @@ p {
 
 .cards-text h4 {
   font-size: 30px;
-  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   margin-top: 52px;
   font-weight: 500;
   line-height: 1.1;
@@ -170,7 +170,6 @@ p {
   font-weight: 300;
   line-height: 2.2381;
   letter-spacing: .016em;
-  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
 
 .cards .link {
@@ -270,7 +269,7 @@ p {
 }
 
 
-/* 
+/*
 
 =====================================
 |            Responsive              |

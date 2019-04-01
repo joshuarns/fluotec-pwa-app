@@ -18,7 +18,7 @@ body {
     margin: 2rem auto;
     overflow-x: hidden;
     background: #000000 !important;
-    font-family: Futura;
+    font-family: Futura !important;
 }
 
 a {
@@ -161,6 +161,19 @@ p {
     font-family: Futura;
 }
 
+.container h5 {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 2.2381;
+    letter-spacing: .016em;
+    color: #ffffff;
+}
+
+.container .second {
+    color: #fde300 !important;
+}
+
+
 .text-container h2 {
     color: #fde300;
     letter-spacing: 2px;
@@ -186,7 +199,7 @@ p {
     letter-spacing: 2px;
 }
 
-/* 
+/*
 
 =====================================
 |            Responsive              |
