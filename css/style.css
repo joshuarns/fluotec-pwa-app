@@ -3,6 +3,7 @@ html {
   font-family: 'Raleway', sans-serif;
   font-size: 16px;
   line-height: 1.6;
+  font-family: Futura !important;
 }
 
 *,
@@ -278,6 +279,10 @@ p {
 */
 
 @media screen and (max-width:2560px) and (min-width:1600px) {
+  .text-fluotec-logo {
+    position: relative;
+    top: 28px;
+  }
 
   .card-copa-image,
   .card-image-golden-gate {

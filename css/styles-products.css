@@ -4,6 +4,7 @@ html {
     font-family: 'Raleway', sans-serif;
     font-size: 16px;
     line-height: 1.6;
+    font-family: Futura !important;
 }
 
 *,
@@ -29,6 +30,10 @@ a {
 
 p {
     font-size: 1.25rem;
+}
+
+hr {
+    background: #ffffff !important;
 }
 
 /* INT Navbar */
