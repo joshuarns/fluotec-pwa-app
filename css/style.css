@@ -447,6 +447,14 @@ p {
     padding: 17px !important;
   }
 
+  .sub-text {
+    font-size: 32px;
+  }
+
+  .text-gallery {
+    font-size: 23px;
+  }
+
   .carousel-text {
     width: 100%;
     color: #ffffff;
