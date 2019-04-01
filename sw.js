@@ -2,13 +2,16 @@
 const CACHE_NAME = 'v1_cache_fluotec',
   urlsToCache = [
     './',
-    // HTML
     './index.html',
     './html/vegalux-300.html',
-    // CSS
+    './html/auralux.html',
+    './html/cine-light.html',
+    './html/cine-light-quad.html',
+    './html/studio-led.html',
+    './html/star-maker.html',
+    './html/awards.html',
     './css/styles-products.css',
     './css/style.css',
-    //IMG
     './img/fluotec-logo.png',
     './img/header-banner.jpg',
     './img/icono-64.png',
@@ -29,10 +32,11 @@ const CACHE_NAME = 'v1_cache_fluotec',
     './img/copa-image.jpg',
     './img/golden-gate.jpg',
     './img/favicon.png',
-    // JavaScript
+    './img/auralux-img.png',
     './script.js',
     './manifest.json',
-    './html/installServiceW.js'
+    './html/installServiceW.js',
+    'https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css'
   ]
 
 //durante la fase de instalación, generalmente se almacena en caché los activos estáticos
